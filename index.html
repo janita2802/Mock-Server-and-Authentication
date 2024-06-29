@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login and Todos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>User Login</h1>
+    <div id="login">
+        <label for="username">Username: </label>
+        <input type="text" id="username" value="admin">
+        <label for="password">Password: </label>
+        <input type="password" id="password" value="admin">
+        <button id="loginButton">Login</button>
+    </div>
+    <div id="notification"></div>
+    <div id="todos" style="display: none;">
+        <button id="fetchTodosButton">Fetch Todos</button>
+        <ul id="todo-list" class="todo-list"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
